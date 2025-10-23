@@ -1,7 +1,6 @@
 # Proyecto Ciencia de Datos 2 – Ventas (Uruguay)
 
 **Enriquecimiento con datos públicos (INE/CKAN + SNIG)**  
-Fecha: 2025-10-23
 
 Este repositorio (o carpeta) contiene un _pipeline_ reproducible para:
 
@@ -26,7 +25,7 @@ Proyecto-Ciencia-de-Datos2-Ventas_Ramallo/
 └── Presentacion_Ventas_UY_Insights.pptx
 ```
 
-> **Nota:** Puedes copiar/pegar estos archivos dentro de tu repo actual o crear un branch nuevo y abrir un Pull Request.
+> *
 
 ---
 
@@ -69,7 +68,7 @@ python run_pipeline.py --ventas-url "https://raw.githubusercontent.com/Gonrampsn
 ```
 
 Esto generará el archivo `ventas_enriquecidas_uy.csv` con las columnas agregadas.  
-Luego puedes abrir el notebook `Proyecto_Ventas_UY_Enriquecido.ipynb` para EDA y visualizaciones.
+
 
 ---
 
@@ -81,12 +80,10 @@ Luego puedes abrir el notebook `Proyecto_Ventas_UY_Enriquecido.ipynb` para EDA y
 
 ## Presentación
 
-- **Presentacion_Ventas_UY_Insights.pptx**: plantilla de 8 slides con Abstracto, Metadata, Hipótesis, Visualizaciones e Insights.  
-  Exporta imágenes de los gráficos desde el notebook y pégalas en los placeholders.
-
+- **Presentacion_Ventas_UY_Insights.pptx**: 
 ---
 
-## Git (subir a tu repo)
+
 
 ```bash
 git checkout -b feature/enriquecimiento-uy
