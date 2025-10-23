@@ -1,0 +1,10 @@
+pandas
+numpy
+requests
+geopandas
+pyproj
+shapely
+mapclassify
+matplotlib
+openpyxl
+scipy
